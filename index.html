@@ -8,9 +8,24 @@
 </head>
 <body>
 
-    <h1>Ciao!</h1>
+    <div>
+        <h3>Calcolatrice</h3>
+        <br>
+        <form>
+            <input type="number" id="op1" placeholder="operatore 1">
+            <input type="number" id="op2" placeholder="operatore 2">
+            <br><br>
+            <input type="button" id="submit" value="somma" onclick="somma();">
+            <input type="button" id="submit" value="sottrai" onclick="sottrazione();">
+            <input type="button" id="submit" value="moltiplica" onclick="moltiplicazione();">
+            <input type="button" id="submit" value="dividi" onclick="divisione();">
+            <br>
+            <h4>risultato:</h4>
+            <input type="number" id="result">
+        </form>
+    </div>
     
-    <script src="ese4.js"></script>
+    <script src="calcolatrice.js"></script>
 
 </body>
 </html>
